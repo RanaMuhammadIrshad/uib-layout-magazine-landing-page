@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #f6f6ee;
+  font-size: 1.6rem;
+}
+
+header nav ul {
+  display: flex;
+  justify-content: flex-start;
+ gap: 5%;
+}
+
+header {
+  padding: 4rem 2rem 0;
+}
+
+header nav ul li {
+  list-style-type: none;
+  border: 1px solid black;
+  border-radius: 50%;
+  padding: 0.5rem;
+  font-weight: bolder;
+}
+
+header nav ul li:last-child {
+  background-color: black;
+  color: white;
+}
+
+img {
+  width: 100%;
+}
+
+main section[class] {
+  width: 50%;
+}
+
+main {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+.section1 {
+  display: flex;
+  flex-direction: column;
+}
+
+.section1 h1 {
+  font-size: 15rem;
+}
+
+.section1 p {
+  font-size: 5rem;
+}
+
+.section3 {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.section3 a {
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+  background-color: black;
+  padding: 3rem;
+  font-weight: bold;
+
+  border-radius: 5rem;
+}
+.section3 a::after {
+  content: "\f178";
+  font-family: "Font Awesome 6 Free";
+  font-weight: 900;
+}
+
+footer {
+  text-align: center;
+  margin-top: 5rem;
+}
+
+footer a {
+  text-decoration: none;
+  color: black;
+  text-transform: uppercase;
+  padding: 3rem;
+  font-weight: bold;
+}
+
+footer a::before {
+  content: "\f063";
+  font-family: "Font Awesome 6 Free";
+  font-weight: 900;
+}
